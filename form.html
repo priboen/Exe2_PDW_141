@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/form.css" />
+    <title>Page 2</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Pendaftaran Peminatan</h1>
+        </div>
+        <form action="">
+            <label for="nama">Nama</label>
+            <input type="text" placeholder="Nama anda" id="nama"><br>
+            <label for="nim">NIM</label>
+            <input type="text" placeholder="NIM anda" id="nim"><br>
+            <p>Peminatan Pada Bidang:</p>
+            <input type="radio" name="peminatan" id="programing" value="programing">
+            <label for="programing">Programing</label><br>
+            <input type="radio" name="peminatan" id="desain" value="desain">
+            <label for="programing">Desain</label><br>
+            <input type="radio" name="peminatan" id="jaringan" value="jaringan">
+            <label for="programing">Jaringan</label><br>
+            <input type="radio" name="peminatan" id="data" value="data">
+            <label for="programing">Data</label><br>
+            <label for="">Alamat</label><br>
+            <textarea placeholder="Tulis alamatmu disini" name="alamat" id="alamat" cols="30"
+                rows="5"></textarea><br><br>
+
+            <p>
+            <div class="form-group">
+                <label for="angkatan">Pilih Angkatan</label><br />
+                <select id="angkatan">
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                </select>
+            </div>
+            </p>
+
+            <p>
+            <div class="form-group">
+                <label for="tanggal">Tanggal</label><br />
+                <input type="date" id="tanggal" />
+            </div>
+            </p>
+
+            <div class="form-group">
+                <button type="submit" onclick="kirimData()">Kirim</button>
+                <a href="index.html">Back</a>
+            </div>
+        </form>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+
+</html>

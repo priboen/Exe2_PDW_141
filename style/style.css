@@ -1,0 +1,28 @@
+body {
+    background-image: url("https://img.freepik.com/free-vector/stylish-hexagonal-line-pattern-background_1017-19742.jpg?w=900&t=st=1680923164~exp=1680923764~hmac=fcdbd3e609ff6d3925e4bdec8230f56e719e3bfd27733c4f5c891618c727be8a");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: cover;
+}
+
+h1 {
+    font-family: "Poppins";
+}
+
+h2 {
+    font-family: "Poppins";
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid #000000;
+    background-color: whitesmoke;
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 2px #000000;
+    border-radius: 10px;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+h3 {
+    font-family: "Poppins";
+}
